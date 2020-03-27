@@ -1,0 +1,25 @@
+{
+    "name": "bitwise/logger",
+    "description": "Log Laravel Exception on database",
+    "type": "library",
+    "keywords": [
+        "Logger",
+        "laravel log",
+        "database log"
+    ],
+    "authors": [
+        {
+            "name": "Mahmoud Hosny",
+            "email": "mahmoud.e.hosny84@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.2.5",
+        "laravel/framework": "^6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Bitwise\\Logger\\":"src"
+        }
+    }
+}
