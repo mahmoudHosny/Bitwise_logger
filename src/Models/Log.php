@@ -6,7 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Log extends Model
 {
-    protected $table = 'logger_logs';
+    protected $table = 'bitwise_logger_logs';
     protected $guarded = [];
     protected $exception = null;
     protected $ignoreExceptions = [];
